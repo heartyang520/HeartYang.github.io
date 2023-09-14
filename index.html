@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0028)https://hacpai.com/halt.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="这里是“HeartYang”的个人页！">
+<meta name="keywords" content="HeartYang,Personal page">
+<meta name="author" content="HeartYang">
+
+<title>HeartYang❤️Personal Page</title>
+
+<!--播放器-->
+<link rel="stylesheet" href="static/css/player.css">
+
+       <link href="static/css/Location.css" type="text/css" rel="stylesheet">
+	   
+   </head>
+
+    <body class="body--ready" data-pinterest-extension-installed="cr1.39.1">
+        <canvas class="canvas" width="100%" height="905"></canvas>
+    <div id="willerce">
+    <div>
+       <img src="./static/picture/LOGO.png" id="logo" title="Heart-Yang">
+       <h1>Heart-Yang</h1>
+	   <a href="https://blog.csdn.net/qq_41095608">屏幕前的生活，并不是你的全部🤡</a>
+    </div>	
+  
+  </div>
+  <span class="copyright">&copy; 2023 <a href="javascript:;">Heart-Yang</a></span>
+        <script src="static/js/Seffects.js" type="text/javascript"></script>
+<!--播放器 -->
+
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/jquery.marquee.min.js"></script>
+
+<script>
+	var	playlist = [
+	{title:"老板说",artist:"一块浆糖er",mp3:"https://dl.stream.qqmusic.qq.com/RS02062mdss32F6T93.mp3?guid=7828949548&vkey=D0AAA3F56EE88282F03B280EE25CBE1E7261A666C665C1B48921270DBC15C883A9AB707BA20CB935E0C76D65961F49D301D5B67DAC9FE0F8&uin=&fromtag=120052",cover:"https://y.qq.com/music/photo_new/T002R300x300M000001u89Tz04V1xz_1.jpg?param=106x106",},
+];
+  var isRotate = true;
+  var autoplay = true;
+</script>
+<script src="static/js/player.js"></script>
+<script>
+
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+
+</body><div></div></html>
