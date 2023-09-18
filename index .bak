@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0028)https://hacpai.com/halt.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="这里是“HeartYang”的个人页！">
+<meta name="keywords" content="HeartYang,Personal page">
+<meta name="author" content="HeartYang">
+
+<title>HeartYang❤️Personal Page</title>
+
+<!--播放器-->
+<link rel="stylesheet" href="static/css/player.css">
+
+       <link href="static/css/Location.css" type="text/css" rel="stylesheet">
+	   
+   </head>
+    <body class="body--ready" data-pinterest-extension-installed="cr1.39.1">
+        <canvas class="canvas" width="100%" height="905"></canvas>
+    <div id="willerce">
+    <div>
+       <img src="./static/picture/LOGO.png" id="logo" title="Heart-Yang">
+    </div>	
+<div align="center"> <a href="https://github.com/heartyang520/"> <img
+			src="https://readme-typing-svg.herokuapp.com/?lines=屏幕前的生活，不是你我的全部;I'm+Heart-Yang+Welcome+!&center=true&size=27">
+	</a> </div>
+
+<h4 align="center">
+	<table> <img src="https://c.tenor.com/XSbD902n1fwAAAAi/rennen-fast.gif" width="100">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="https://c.tenor.com/SOVMSXmWB1kAAAAi/tony-star-jumping.gif"
+			width="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+	</table>
+  </div>
+  <span class="copyright">&copy; 2023 <a href="javascript:;">Heart-Yang</a></span>
+        <script src="static/js/Seffects.js" type="text/javascript"></script>
+<!--播放器 -->
+
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/jquery.marquee.min.js"></script>
+
+<script>
+	var	playlist = [
+	{title:"再见我的女孩",artist:"烟(许佳豪)",mp3:"https://m804.music.126.net/20230916111831/380754d773111ca24192bbcba96d3dda/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/21132619814/39fd/5e40/49bd/8e6931f048d66b63e4571f78741794b2.m4a?authSecret=0000018a9be85f2404c90aaba55f1ee4",cover:"data:image/jpg;base64,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?param=106x106",},
+];
+  var isRotate = true;
+  var autoplay = true;
+</script>
+<script src="static/js/player.js"></script>
+<script>
+
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+
+</body><div></div></html>
