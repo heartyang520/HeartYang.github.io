@@ -15,8 +15,8 @@ https://github.com/heartyang520/heartyang520
 ## Three
 银河网络桌面壁纸
 <p><strong>&emsp;&emsp; <a href="https://heartyang520.github.io/Galaxy-Network-Desktop/"> 点击预览® </a> </strong>
-
-
+银河网络桌面互动壁纸(自定义刷短视频)
+<p><strong>&emsp;&emsp; <a href="https://heartyang520.github.io/Galaxy-Network-Interactive-Desktop/"> 点击预览® </a> </strong>
 
 <!--访问次数-->
 <h2>Watching</h2>
