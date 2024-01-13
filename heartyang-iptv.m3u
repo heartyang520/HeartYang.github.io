@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="LoveNrture" group-title="·4K",Love Nrture 4K「自然」
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+#EXTINF:-1 group-title="·4K",Fashion 4K「时尚」
+https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc1.png" group-title="•广播",BBC Radio 1
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc1dance.png" group-title="•广播",BBC Radio 1 Dance
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc1relax.png" group-title="•广播",BBC Radio 1 relax
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_relax/bbc_radio_one_relax.isml/bbc_radio_one_relax-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc1xtra.png" group-title="•广播",BBC Radio 1Xtra
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc2.png" group-title="•广播",BBC Radio 2
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc3.png" group-title="•广播",BBC Radio 3
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc4.png" group-title="•广播",BBC Radio 4
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc4extra.png" group-title="•广播",BBC Radio 4 Extra
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc5.png" group-title="•广播",BBC Radio 5 live
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio=320000.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/bbc6.png" group-title="•广播",BBC Radio 6
+https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio=320000.m3u8
